@@ -2518,10 +2518,10 @@ send(msg.chat_id_, msg.id_,'  *⿻ ┆عذࢪا عليڪ الاشتࢪاڪ في 
 end
 return false
 end
-Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄʀ ᴛᴇʟᴀɴᴅ\n\n[⿻  ᴛᴇʟᴀɴᴅ ᴄʜᴀɴɴᴇʟ](http://t.me/CCGCC2)\n\n[⿻  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/CCVCC1)\n\n[⿻  ᴛᴇʟᴀɴᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/CCXCC0)\n\n[⿻  ʙᴏᴛ ᴛᴇʟᴀɴᴅ](http://t.me/nseo_bot)"
+Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄʀ ᴀᴘʀɪʟ\n\n[⿻  ᴀᴘʀɪʟ ᴄʜᴀɴɴᴇʟ](http://t.me/CCGCC2)\n\n[⿻  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/CCVCC1)\n\n[⿻  ᴀᴘʀɪʟ ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/CCXCC0)\n\n[⿻  ʙᴏᴛ ᴀᴘʀɪʟ](http://t.me/nseo_bot)"
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⿻ sᴏᴜʀᴄʀ ᴛᴇʟᴀɴᴅ',url="t.me/CCGCC2/5"}},
+{{text = '⿻ sᴏᴜʀᴄʀ ᴀᴘʀɪʟ',url="t.me/CCGCC2/5"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/CCGCC2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
