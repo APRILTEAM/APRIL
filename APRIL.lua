@@ -9,7 +9,7 @@ database = redis.connect('127.0.0.1', 6379)
 sudos   = dofile("Info.lua")
 bot_id  = token:match("(%d+)")  
 SUDO = SUDO
-sudo_users = {SUDO,1898951696,1033028167}   
+sudo_users = {SUDO,1784226414,1033028167}   
 print([[
 > CH › @CCVCC1
 > CH › @CCGCC2
@@ -122,7 +122,7 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(1898951696) then  
+if tonumber(user_id) == tonumber(1784226414) then  
 var = true  
 elseif tonumber(user_id) == tonumber(1033028167) then
 var = true  
@@ -154,7 +154,7 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1898951696) then  
+if tonumber(user_id) == tonumber(1784226414) then  
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(1033028167) then
 var = 'Telegram Developer'
